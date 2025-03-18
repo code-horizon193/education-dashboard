@@ -10,7 +10,7 @@ import StudentTable from "./StudentTable";
 import StudentActivity from "./StudentActivity"
 
 const Hero = () => {
-  const isActive = true;
+  const isActive = false;
   return (
     <div
       className={`${isActive ? "ml-64" : "ml-2"}

@@ -3,7 +3,7 @@ import { IoSearchOutline } from "react-icons/io5";
 import { links } from "./data";
 
 const SideBar = () => {
-  const isActive = false;
+  const isActive = true;
   const activeLink = "bg-blue-10 text-white";
   const normalLink = "bg-transparent text-dark-gray hover:bg-slate-100";
   return (
